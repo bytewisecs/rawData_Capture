@@ -146,3 +146,19 @@ cd rawData_capture
 `--no-plots` 可仅执行数值检查。
 绘图依赖记录在 `requirements-plot.txt`，其离线安装包已保存在本项目 `wheelhouse/`；
 `setup.sh` 会一并安装，采集本身不导入绘图库。
+
+
+## 文献
+
+```bash
+@ARTICLE{11407475,
+  author={Fan, Long and Xie, Lei and Ma, Shiyuan and Ning, Jingyi and Wang, Chuyu and Zhou, Wenhui and Luo, Jun},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={CoSense: Bridging Real-Time Performance and Fine-Grained Detail in mmWave Sensing}, 
+  year={2026},
+  volume={25},
+  number={8},
+  pages={11381-11396},
+  keywords={Sensors;Real-time systems;Radar;Millimeter wave communication;Point cloud compression;Bandwidth;Collaboration;Array signal processing;Azimuth;Pipelines;Real-time sensing;fine-grained sensing;edge-end collaboration;beamforming;millimeter-wave radar},
+  doi={10.1109/TMC.2026.3666723}}
+```
