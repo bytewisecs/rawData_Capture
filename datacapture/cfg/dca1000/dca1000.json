@@ -1,0 +1,55 @@
+{
+  "RadarConfig": {
+    "radarCFG": "../radar/profile_AeroSense.cfg",
+    "userPort": "/dev/ttyACM0",
+    "dataPort": "/dev/ttyACM1"
+  },
+  "DCA1000Config": {
+    "dataLoggingMode": "raw",
+    "dataTransferMode": "LVDSCapture",
+    "dataCaptureMode": "ethernetStream",
+    "lvdsMode": 2,
+    "dataFormatMode": 3,
+    "packetDelay_us": 25,
+    "ethernetConfig": {
+      "systemIPAddress": "192.168.1.132",
+      "DCA1000IPAddress": "192.168.1.150",
+      "DCA1000ConfigPort": 4096,
+      "DCA1000DataPort": 4098
+    },
+    "ethernetConfigUpdate": {
+      "systemIPAddress": "192.168.1.132",
+      "DCA1000IPAddress": "192.168.1.150",
+      "DCA1000MACAddress": "12.34.56.78.90.12",
+      "DCA1000ConfigPort": 4096,
+      "DCA1000DataPort": 4098
+    },
+    "dataFormatConfig": {
+      "MSBToggle": 0,
+      "laneFmtMap": 0,
+      "reorderEnable": 0,
+      "dataPortConfig": [
+        {
+          "portIdx": 0,
+          "dataType": "complex"
+        },
+        {
+          "portIdx": 1,
+          "dataType": "complex"
+        },
+        {
+          "portIdx": 2,
+          "dataType": "complex"
+        },
+        {
+          "portIdx": 3,
+          "dataType": "complex"
+        },
+        {
+          "portIdx": 4,
+          "dataType": "complex"
+        }
+      ]
+    }
+  }
+}

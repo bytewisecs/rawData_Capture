@@ -1,0 +1,60 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python packaging and native build output (including fpga_udp)
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+*.whl
+*.so
+*.so.[0-9]*
+*.pyd
+*.dylib
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+/wheelhouse/
+
+# Radar captures, FFT results and validation output
+/dataSet/*
+!/dataSet/.gitkeep
+/validation/
+*.npy
+*.npy.part
+*.npz
+*.log
+
+# Local editor settings and backup files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.bak-*
+
+# Local environment variables; keep shareable templates
+.env
+.env.*
+!.env.example
+!.env.template
+
+# macOS metadata (including SSHFS/AppleDouble files)
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride

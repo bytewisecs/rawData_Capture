@@ -1,0 +1,209 @@
+{
+  "source_root": "/home/nvidia/fanl/AeroSense_capture",
+  "files": [
+    {
+      "source": "aerosense/config.py",
+      "destination": "datacapture/config.py",
+      "source_sha256": "347878027f59ee0e786d6e56c3f702ff97e761ad131444e734008c0b12530fb6",
+      "mode": "copied"
+    },
+    {
+      "source": "aerosense/native_udp.py",
+      "destination": "datacapture/native_udp.py",
+      "source_sha256": "8ee1a11cf88dc5ab99a7f511f7f714c3d55c398c6419b4c3c2f79a37a4396009",
+      "mode": "copied"
+    },
+    {
+      "source": "aerosense/udp.py",
+      "destination": "datacapture/udp.py",
+      "source_sha256": "af0eb2e1d504344c57b2a94f25a64649bc2153e1d095ed7e8e33c3211488828e",
+      "mode": "copied"
+    },
+    {
+      "source": "aerosense/timing.py",
+      "destination": "datacapture/timing.py",
+      "source_sha256": "20663eb73c58332794c2fa394c18cddba8da31b9d1176e434dacbb3e92b7f5b9",
+      "mode": "copied"
+    },
+    {
+      "source": "aerosense/hardware.py",
+      "destination": "datacapture/hardware.py",
+      "source_sha256": "eda0f841d51cbb4c58be6e2143271880f12fb588de50117f3113e3711e72dda3",
+      "mode": "local imports; synchronize CLI prompt before configuration"
+    },
+    {
+      "source": "DCA1000_PKG/API_Config_DCA1000_FPGA.py",
+      "destination": "datacapture/drivers/dca1000.py",
+      "source_sha256": "cf7abe6a86d0f6001d622d779645c60f971f3e2153fc1884207838e29291438e",
+      "mode": "copied"
+    },
+    {
+      "source": "Configs/radar_cfg/profile_AeroSense.cfg",
+      "destination": "datacapture/cfg/radar/profile_AeroSense.cfg",
+      "source_sha256": "2b0920ab58edeea0395c85f6fd954ceeeff7d5257cb5a5e92f298bf95f5b72f0",
+      "mode": "copied"
+    },
+    {
+      "source": "Configs/dca1000_json/datacard_config_realtime_radarA1.json",
+      "destination": "datacapture/cfg/dca1000/dca1000.json",
+      "source_sha256": "235e5ab06af05e2592f59be4409cfa454c067d8852b90e02cde870601a69e969",
+      "mode": "local radar path; legacy file-output settings removed"
+    },
+    {
+      "source": "third_parts/fpga_udp/.appveyor.yml",
+      "destination": "datacapture/third_parts/fpga_udp/.appveyor.yml",
+      "source_sha256": "a7673a76913b1b5840adb375137cf459eaf78887b998fbeb3229b416f62b4fda",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/.pre-commit-config.yaml",
+      "destination": "datacapture/third_parts/fpga_udp/.pre-commit-config.yaml",
+      "source_sha256": "b361b73ece55e1299d4b7c09249fa6fc3f50a7294df7a8d3558e5edc98011cdb",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/.travis.yml",
+      "destination": "datacapture/third_parts/fpga_udp/.travis.yml",
+      "source_sha256": "4748a3a7f417fbc92e61304f2e3a7ad61fa609bc5a36302a54f6a334e4d8b871",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/LICENSE",
+      "destination": "datacapture/third_parts/fpga_udp/LICENSE",
+      "source_sha256": "37f47dfb99745391d9ca4d3e7a5d4bb41d27c525edb40232efc878c7fc3f6e09",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/README.md",
+      "destination": "datacapture/third_parts/fpga_udp/README.md",
+      "source_sha256": "7b3fd56885a559cea26ef58169828ad58a8b4f7bc9c8352305d59f91d760114a",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/conda.recipe/meta.yaml",
+      "destination": "datacapture/third_parts/fpga_udp/conda.recipe/meta.yaml",
+      "source_sha256": "ed964d8852e45540ab5276492bc144b9cd3d97449727c86f9d917b4783b5e217",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/docs/Makefile",
+      "destination": "datacapture/third_parts/fpga_udp/docs/Makefile",
+      "source_sha256": "769e513b3910194cb0a5c26bbc060b6804e09658a7f0dbe25c6ddeae367021ee",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/docs/conf.py",
+      "destination": "datacapture/third_parts/fpga_udp/docs/conf.py",
+      "source_sha256": "9021c035356ca9bd360765747009e8dba74f5057daaa6ca4981c7e487ba8e946",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/docs/index.rst",
+      "destination": "datacapture/third_parts/fpga_udp/docs/index.rst",
+      "source_sha256": "7590e12a14d44b3221ef6dac17914bc85ad797c1b920297be94a4bcd5114a199",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/docs/make.bat",
+      "destination": "datacapture/third_parts/fpga_udp/docs/make.bat",
+      "source_sha256": "e05a4f2eb6f6262d583969020378393eb8027f309127b3934133bb5bf04d877c",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/docs/python_example.rst",
+      "destination": "datacapture/third_parts/fpga_udp/docs/python_example.rst",
+      "source_sha256": "71b257d000e8e16ffb1331d28bbe437592acde8964fe63fc806cdd0adc798dbc",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/pyproject.toml",
+      "destination": "datacapture/third_parts/fpga_udp/pyproject.toml",
+      "source_sha256": "e3ccff820d4b116fa8a21ad20f04438e677e458db84ccf1ff6cbb526e195f175",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/setup.py",
+      "destination": "datacapture/third_parts/fpga_udp/setup.py",
+      "source_sha256": "06c5265b39c35c8d497f87127c2593887289b6fe4111fe9779cf9afd771b82e6",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Linux/WzSerialportPlus.cpp",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Linux/WzSerialportPlus.cpp",
+      "source_sha256": "6094533736464165f2652918426f2a88cb7a4b6cebfe58c58dd3bf5a775ffb4c",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Linux/WzSerialportPlus.h",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Linux/WzSerialportPlus.h",
+      "source_sha256": "d27dbe5548e36b559687129df56ee508e1b1da15ac4b148cb8afa477a6495be8",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Linux/main.cpp",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Linux/main.cpp",
+      "source_sha256": "97333d989e5872cafe0b61fe717382565dcd49b5ba6d9f924cc67c6e3f98a9ab",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Linux/makefile",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Linux/makefile",
+      "source_sha256": "73be82511ba3884bd9dc602b4b36ba82189e8b65aae755153acbcf9bf6861c6a",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Windows/WzSerialportPlus.cpp",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Windows/WzSerialportPlus.cpp",
+      "source_sha256": "ef10ceaf865925cecd52217c48433ec0b700adacce968733e1612b20973742f5",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Windows/WzSerialportPlus.h",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Windows/WzSerialportPlus.h",
+      "source_sha256": "35949233e2b2aaee3f97874da0bfffa59fea50067de362df836342835fd721e6",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/Windows/main.cpp",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/Windows/main.cpp",
+      "source_sha256": "e699a6a2d2f698435a077adf99ae2e47269e9389e767185e8e1607b4eabfc213",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/WzSerialportPlus/readme.md",
+      "destination": "datacapture/third_parts/fpga_udp/src/WzSerialportPlus/readme.md",
+      "source_sha256": "7b73a5fba533dddba70be07060db3bd2475a2e865fc5df59781bb98f57851abf",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/src/main.cpp",
+      "destination": "datacapture/third_parts/fpga_udp/src/main.cpp",
+      "source_sha256": "5f3bc324f408d1a64b0630dbc2568913fc8687272249251060019854dbc84e87",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/tests/test.py",
+      "destination": "datacapture/third_parts/fpga_udp/tests/test.py",
+      "source_sha256": "f6c04e03c05b4ecbc52304521106b94a92cd788c0c51b37a7286e238a61dc60f",
+      "mode": "copied"
+    },
+    {
+      "source": "third_parts/fpga_udp/tests/test_udp_receive.py",
+      "destination": "datacapture/third_parts/fpga_udp/tests/test_udp_receive.py",
+      "source_sha256": "312617465b45863d1be62264dd428f95ff0111dc586f425307c4bd828896fd8f",
+      "mode": "copied"
+    },
+    {
+      "source": "aerosense/models.py",
+      "destination": "datacapture/models.py",
+      "source_sha256": "6d904db7722f52ee3b82530dad4d13a4d2f513ed140fbae7975a7633a0347749",
+      "mode": "raw capture definitions extracted"
+    },
+    {
+      "source": "aerosense/sources.py",
+      "destination": "datacapture/decode.py",
+      "source_sha256": "76850b98ea5e5f0c334f1948fdf713a416765258a32d668647ecb8e990f6e7e3",
+      "mode": "raw capture definitions extracted"
+    }
+  ]
+}
